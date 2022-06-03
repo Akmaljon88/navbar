@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: grid;
+    height: 70px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    background: blueviolet;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
